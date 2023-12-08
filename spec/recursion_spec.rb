@@ -6,7 +6,7 @@ end
 
 RSpec.describe "Recursion" do
   context "Lesson Exercises" do
-    xdescribe "#countdown" do
+    describe "#countdown" do
       it "counts down to zero from the inputted number" do
         expect(countdown(0)).to eq([0])
         expect(countdown(1)).to eq([1, 0])
@@ -15,7 +15,7 @@ RSpec.describe "Recursion" do
       end
     end
 
-    xdescribe "#get_sum" do
+    describe "#get_sum" do
       it "returns the sum of all the numbers in the array" do
         expect(get_sum([])).to be nil
         expect(get_sum([0])).to be 0

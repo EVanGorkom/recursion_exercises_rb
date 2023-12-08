@@ -1,9 +1,17 @@
 def countdown(number)
+  if number <= 0
+    return [0]
+  end
 
+  [number] + countdown(number - 1)
 end
 
 def get_sum(numbers)
+  if number.length == 1
+    return numbers[0]
+  end
 
+  
 end
 
 def factorial(number)
